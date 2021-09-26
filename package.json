@@ -1,0 +1,27 @@
+{
+  "name": "mymaintanace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "axios": "^0.21.4",
+    "bootstrap": "^5.1.1",
+    "concurrently": "^6.2.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5",
+    "morgan": "^1.10.0",
+    "react-bootstrap-table": "^4.3.1",
+    "react-bootstrap-validation": "^0.1.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
